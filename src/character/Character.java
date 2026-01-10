@@ -15,4 +15,7 @@ public abstract class Character {
         this.name = name;
         this.isFriendly = isFriendly;
     }
+    public void attack(){
+
+    }
 }
