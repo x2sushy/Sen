@@ -1,5 +1,7 @@
 package items;
 
-public class Item {
-    private int damage;
+public abstract class Item {
+    protected int damage;
+
+    public abstract boolean use();
 }
