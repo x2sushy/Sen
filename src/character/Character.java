@@ -5,13 +5,14 @@ import items.Item;
 
 public abstract class Character {
 
-    int health;
-    String name;
-    ArrayList<Item> loot;
+    protected int health;
+    protected String name;
+    protected ArrayList<Item> loot;
 
     public Character(int health, String name) {
         this.health = health;
         this.name = name;
+        this.loot = new ArrayList<>();
     }
     public void attack(){
 
