@@ -5,6 +5,7 @@ import items.Item;
 
 public abstract class Character {
 
+    protected String id;
     protected int health;
     protected String name;
     protected ArrayList<Item> loot;

@@ -9,5 +9,8 @@
         <module name="Sen" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jackson-demo" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
