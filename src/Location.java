@@ -8,11 +8,10 @@ public class Location {
     private String id;
     private String name;
     private ArrayList<Character> characters;
+    private ArrayList<String> neighbours;
 
-    public Location(Character characters, String name) {
-        this.name = name;
-        this.characters = new ArrayList<>();
-        this.characters.add(characters);
+    public Location() {
+
     }
 
     public String getId() {

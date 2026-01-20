@@ -1,5 +1,52 @@
 {
   "locations" : [
-    {"name" : "paseka", "characters" : []}
+    {
+      "id": "paseka",
+    "name": "Paseka",
+    "characters": ["hrac", "herold"],
+    "neighbors": ["skalnateHory", "tajemnyLes"]
+    },
+    {
+    "id": "skalnateHory",
+    "name": "Skalnaté Hory",
+    "characters": ["enemy1"],
+    "neighbors": ["paseka", "kopcoviteVrchy", "pekelneUdoli"]
+    },
+    {
+    "id": "kopcoviteVrchy",
+    "name": "Kopcovité Vrchy",
+    "characters": ["enemy2", "enemy3", "enemy4"],
+    "neighbors": ["skalnateHory", "princezninPalac"]
+    },
+    {
+    "id": "tajemnyLes",
+    "name": "Tajemný Les",
+    "characters": ["enemy5", "enemy6"],
+    "neighbors": ["paseka", "kronosovoSidlo"]
+    },
+    {
+    "id": "kronosovoSidlo",
+    "name": "Kronosovo Sídlo",
+    "characters": ["kronos", "enemy7", "enemy8", "enemy9"],
+    "neighbors": ["tajemnyLes", "francovaJeskyne"]
+    },
+    {
+    "id": "francovaJeskyne",
+    "name": "Francova Jeskyně",
+    "characters": ["franc"],
+    "neighbors": ["kronosovoSidlo"]
+    },
+    {
+    "id": "pekelneUdoli",
+    "name": "Pekelné Údolí",
+    "characters": ["null"],
+    "neighbors": ["skalnateHory"]
+    },
+    {
+    "id": "princezninPalac",
+    "name": "Princeznin Palác",
+    "characters": ["princezna"],
+    "neighbors": ["kopcoviteVrchy"]
+    }
   ]
 }

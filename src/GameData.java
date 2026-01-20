@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class GameData {
 
     public ArrayList<Item> items;
-    public ArrayList<Character> characters;
+    public ArrayList<SC> sideCharacters;
     public ArrayList<Location> locations;
 
     /**
