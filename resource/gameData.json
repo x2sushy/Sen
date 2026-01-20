@@ -48,5 +48,11 @@
     "characters": ["princezna"],
     "neighbors": ["kopcoviteVrchy"]
     }
+  ],
+  "sideCharacters" : [
+    {
+      "id" : "enemy1",
+      ""
+    }
   ]
 }
