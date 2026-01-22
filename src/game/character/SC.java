@@ -1,8 +1,8 @@
-package character;
+package game.character;
 
 public class SC extends Character{
 
-    private final boolean isFriendly;
+    private boolean isFriendly;
 
     public SC() {
     }

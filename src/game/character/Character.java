@@ -1,14 +1,13 @@
-package character;
+package game.character;
 
 import java.util.ArrayList;
-import items.Item;
 
-public abstract class Character {
+public class Character {
 
     protected String id;
     protected int health;
     protected String name;
-    protected ArrayList<Item> loot;
+    protected ArrayList<String> loot;
 
     public Character() {
     }
@@ -39,11 +38,11 @@ public abstract class Character {
         this.name = name;
     }
 
-    public ArrayList<Item> getLoot() {
+    public ArrayList<String> getLoot() {
         return loot;
     }
 
-    public void setLoot(ArrayList<Item> loot) {
+    public void setLoot(ArrayList<String> loot) {
         this.loot = loot;
     }
 }
